@@ -1,0 +1,7 @@
+<div class="col-sm-4">
+  <div class="thumbnail">
+    {{#link-to 'post' post.id}}<img id="tile-img" class="img-responsive" src={{post.image}} alt="Image for {{post.title}}" />{{/link-to}}
+    <h4>{{#link-to 'post' post.id}}{{post.title}}{{/link-to}}
+    <br><small>By {{post.author}}</small></h4>
+  </div>
+</div>
