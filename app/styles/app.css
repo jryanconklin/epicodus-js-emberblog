@@ -1,0 +1,18 @@
+h1 {
+  font-family: 'Orbitron', monospace;
+  font-size: 45px;
+  text-align: center;
+}
+
+body {
+  color: #000000;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+}
+
+#header {
+  margin: 30px auto;
+}
