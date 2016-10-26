@@ -4,6 +4,10 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  text-align: center;
+}
+
 body {
   color: #000000;
 }
@@ -22,6 +26,7 @@ body {
   background-color: #000000;
   height: 100px;
   padding: 36px !important;
+  margin-top: 30px;
 }
 
 #nav {
