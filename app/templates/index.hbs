@@ -1,5 +1,10 @@
-<div id="content" class="row">
-  {{#each model as |post|}}
-    {{post-tile post=post}}
-  {{/each}}
-</div>
+
+  <div class="add-post">
+    {{add-post post=post}}
+    
+  </div>
+  <div id="content" class="row">
+    {{#each model as |post|}}
+      {{post-tile post=post}}
+    {{/each}}
+  </div>
