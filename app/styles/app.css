@@ -16,3 +16,18 @@ body {
 #header {
   margin: 30px auto;
 }
+
+#footer {
+  text-align: center;
+  background-color: #000000;
+  height: 100px;
+  padding: 36px !important;
+}
+
+#nav {
+  color: #FFFFFF;
+}
+
+#nav a {
+  color: #FFFFFF;
+}
