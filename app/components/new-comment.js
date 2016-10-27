@@ -3,9 +3,6 @@ import Ember from 'ember';
 export default Ember.Component.extend({
 
   actions: {
-    commentFormShow() {
-      this.set('addNewComment', true);
-    },
 
     saveComment() {
       var params = {
@@ -13,6 +10,8 @@ export default Ember.Component.extend({
         utterance: this.get('utterance'),
         post: this.get('post')
       };
+      this.set('critic', '');
+      this.set('utterance', '');
       this.sendAction('saveComment', params);
     }
 
