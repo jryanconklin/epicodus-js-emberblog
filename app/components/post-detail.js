@@ -5,8 +5,10 @@ export default Ember.Component.extend({
   actions: {
     saveComment(comment) {
       this.sendAction('saveComment', comment);
+    },
+    deleteComment(comment) {
+      this.sendAction('deleteComment', comment);
     }
-
 
 //End
   }
