@@ -64,6 +64,8 @@ a:hover {
 
 #post-button {
   color: #3cb260;
+  display: block;
+  margin: 0 auto;
 }
 
 #logo {
@@ -106,4 +108,9 @@ a:hover {
 #content {
   display: block;
   margin: 0 auto;
+}
+
+#post-display {
+  width: 60%;
+  margin: 30px auto;
 }
