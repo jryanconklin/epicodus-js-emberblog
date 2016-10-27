@@ -1,0 +1,15 @@
+<div class="well">
+  <form>
+    <h4><img src="/assets/images/comment.png"> Post Comment</h4>
+    <div class="form-group">
+      <label for="critic">Name</label>
+      {{input class="form-control" value=critic id="critic"}}
+    </div>
+    <div class="form-group">
+      <label for="utterance">Comment</label>
+      <br>
+      {{textarea class="form-control" rows=5 value=utterance id="utterance"}}
+    </div>
+    <button class="btn btn-default" id="post-button" type="button" {{action 'saveComment' comment}}>Post</button>
+  </form>
+</div>

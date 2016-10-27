@@ -1,5 +1,7 @@
 <div class="spacer">
 </div>
+
+<!-- Posts -->
 <div class="well row">
   <div class="col-sm-8">
     <h2>{{post.title}}<br>
@@ -10,3 +12,13 @@
     <img class="img img-responsive" src={{post.image}} alt="An article by {{post.image}}" />
   </div>
 </div>
+
+<!-- Create Comment  -->
+{{new-comment saveComment="saveComment" post=post}}
+
+<!-- Comment Tile  -->
+<!-- <div class="well">
+  {{#each post.comments as |comment|}}
+    {{comment-tile comment=comment}}
+  {{/each}}
+</div> -->

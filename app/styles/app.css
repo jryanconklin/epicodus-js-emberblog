@@ -2,6 +2,7 @@ h1 {
   font-family: 'Orbitron', monospace;
   font-size: 45px;
   text-align: center;
+  color: #FFF;
 }
 
 h3 {
@@ -45,13 +46,17 @@ a:hover {
   color: #FFF;
 }
 
+#post-button {
+  color: #3cb260;
+}
+
 #logo {
   width: 100px;
   height: auto;
 }
 
 #header {
-  background-color: #FFF;
+  background-color: #000;
   height: 150px;
   padding: 0.5em;
   position: fixed;
