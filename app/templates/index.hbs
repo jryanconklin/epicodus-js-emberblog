@@ -1,20 +1,17 @@
 <div class="spacer">
 </div>
 
-<div id="test">
+
   <div class="add-post">
     {{add-post post=post savePost="savePost"}}
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#newPost">
+    <button id="add-button" type="button" class="btn btn-default" data-toggle="modal" data-target="#newPost">
       + New Post
     </button>
-
-
-
   </div>
+
   <div id="content" class="row">
     {{#each model as |post|}}
       {{post-tile post=post}}
     {{/each}}
   </div>
-</div>
