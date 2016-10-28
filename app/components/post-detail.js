@@ -8,6 +8,9 @@ export default Ember.Component.extend({
     },
     deleteComment(comment) {
       this.sendAction('deleteComment', comment);
+    },
+    editComment(comment, params) {
+      this.sendAction('editComment', comment, params);
     }
 
 //End

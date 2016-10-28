@@ -13,13 +13,16 @@
   </div>
 </div>
 
+<!-- Edit  -->
+
+
 <!-- Create Comment  -->
 {{new-comment saveComment="saveComment" post=post}}
 
 <!-- Comment Tile  -->
 <div class="well" id="comment-display">
-  <h4>Comments</h4>
+  <h4><img src="/assets/images/comment.png"></h4>
   {{#each post.comments as |comment|}}
-    {{comment-tile comment=comment deleteComment="deleteComment"}}
+    {{comment-tile comment=comment deleteComment="deleteComment" editComment="editComment" post=post}}
   {{/each}}
 </div>
