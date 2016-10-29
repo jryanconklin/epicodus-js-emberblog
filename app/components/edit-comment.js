@@ -4,8 +4,6 @@ export default Ember.Component.extend({
 
   actions: {
     editComment(comment) {
-      debugger;
-      console.log(this);
       var params = {
         critic: this.get('critic'),
         utterance: this.get('utterance')

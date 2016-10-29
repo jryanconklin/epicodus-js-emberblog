@@ -1,6 +1,6 @@
-<!-- <img class="comment-actions" src="/assets/images/edit.png" {{action 'editComment' comment}} data-toggle="modal" data-target="#editComment"> -->
+<img class="comment-actions" src="/assets/images/edit.png" {{action 'editComment' comment}} data-toggle="modal" data-target="#editComment">
 <!-- Modal -->
-<!-- <div class="modal fade" id="editComment" tabindex="-1" role="dialog" aria-labelledby="editCommentLabel">
+<div class="modal fade" id="editComment" tabindex="-1" role="dialog" aria-labelledby="editCommentLabel">
   <div class="spacer">
   </div>
   <div class="modal-dialog" role="document">
@@ -31,18 +31,4 @@
       </div>
     </div>
   </div>
-</div> -->
-
-<form>
-  <div class="form-group">
-    <label for="critic">Name: </label>
-    {{input class="form-control" value=critic id="critic" placeholder=comment.critic}}
-  </div>
-  <div class="form-group">
-    <label for="utterance">Comment</label>
-    <br>
-    {{textarea class="form-control" rows="5" value=utterance id="utterance" placeholder=comment.utterance}}
-  </div>
-
-  <button type="button" class="btn" type="submit" {{action 'editComment' comment}}>Save</button>
-</form>
+</div>
